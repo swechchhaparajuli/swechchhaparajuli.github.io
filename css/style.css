@@ -211,6 +211,13 @@ a:hover, a:active {
     font-size: 20px;
   }
 
+  a:hover, a:active {
+    text-align: left;
+    color: rgb(125, 125, 125);
+    text-decoration: none;
+    display: inline-block;
+  }
+
   #portfolio-img-2{
     float: left;
     padding: 15px;
