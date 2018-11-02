@@ -224,7 +224,7 @@ a:hover, a:active {
   }
 
   figure{
-    background: rgba(255, 255, 255, 0);
+    background: transparent;
   }
 
   .label-2{
