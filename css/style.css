@@ -81,7 +81,7 @@ a:hover, a:active {
 
   #left{
     float: right;
-    width: 130px;
+    width: 100px;
     padding-right: 0px;
     margin-right: 150px;
     padding-top: 20px;
@@ -92,7 +92,7 @@ a:hover, a:active {
 
   #right{
     float: right;
-    width: 130px;
+    width: 100px;
     color: gray;
     background: rgba(255, 255, 255, 0);
     padding-right: 0px;
@@ -102,7 +102,7 @@ a:hover, a:active {
 
   #middle{
     float: right;
-    width: 135px;
+    width: 105px;
     margin-right: -100;
     padding-right:0;
     padding-top: 20px;
