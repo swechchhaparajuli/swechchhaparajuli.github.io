@@ -84,6 +84,7 @@ a:hover, a:active {
     width: 100px;
     padding-right: 0px;
     margin-right: 150px;
+    margin-left: 5px;
     padding-top: 20px;
     color: gray;
     background: rgba(255, 255, 255, 0);
