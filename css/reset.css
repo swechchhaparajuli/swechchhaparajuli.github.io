@@ -1,0 +1,263 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+
+  /* Box-model */
+  padding: 0;
+
+  /* Positioning */
+  margin: 0;
+  font: inherit;
+
+  /* Typography */
+  font-size: 100%;
+  vertical-align: baseline;
+
+  /* Visual */
+  border: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+
+  /* Misc */
+  content: "";
+  content: none;
+}
+
+table {
+  border-spacing: 0;
+
+  /* Visual */
+  border-collapse: collapse;
+}
+
+.top-tabs{
+    position: fixed;
+}
+
+#nameBlock{
+    position: fixed;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+#navButtons{
+    right: 10px;
+    position: fixed;
+}
+
+.container{
+    position: relative;
+}
+
+.portfolioHolder{
+    right: -400px;
+
+}
+
+.label-1{
+   position: relative;
+   top: 70px;
+   left: -155px;
+   text-align: center;
+}
+
+
+#portfolio-img-1{
+    position: relative;
+    top: 10px;
+    left: 0px;
+  }
+
+
+  .label-2{
+    position: relative;
+    top: -95px;
+    left: 185px;
+    text-align: center;
+   }
+
+   #portfolio-img-2{
+    position: relative;
+    top: -25px;
+    left: 0px;
+  }
+
+#left{
+    position: relative;
+    right: 135px;
+}
+
+#right{
+    position: relative;
+    right: 50px;
+
+}
+
+#middle{
+    position: relative;
+    right: 95px;
+
+}
+
+   .label-3{
+    position: relative;
+    top: -100px;
+    left: 15px;
+    text-align: center;
+   }
+
+    .label-4{
+    position: relative;
+    top: -230px;
+    left: 185px;
+    text-align: center;
+   }
+
+   .label-5{
+    position: relative;
+    top: -230px;
+    left: 15px;
+    text-align: center;
+   }
+
+#portfolio-img-3{
+    position: relative;
+    top: -30px;
+    left: -140px;
+  }
+
+  #portfolio-img-4{
+    position: relative;
+    top: -160px;
+    left: 30px;
+  }
+
+  #portfolio-img-5{
+    position: relative;
+    top: -160px;
+    left: -140px;
+  }
+
+
+
+
+
