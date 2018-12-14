@@ -1,121 +1,126 @@
+
 <!DOCTYPE html>
 <html lang="en-us">
 
-  <head>
-    <meta charset="UTF-8">
-    <title>CSS Stylesheets with Relative Paths</title>
+    <head>
 
-      <!-- We need to bring in the bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
-  
-  <!-- This line is money! It points your HTML to the CSS file. -->
-  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
-  <link rel="stylesheet" type="text/css" href="css/reset.css"> 
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-    
-  </head>
-
-  <title>Swechchha Parajuli</title>
-
-
-
-  <!--<article>
-    <header>
-        <table id="tHead" style="width:100%">
-          <tr> 
-              <th style = "text-align: center">Copyright &copy;</th>
-          </tr> 
-        </table>
-    </header>
-  </article>-->
-
-  
-  <body>
-    <!--<div class="container">-->
-      <nav>
-
-        <section id="top-tabs">
+        <meta charset="UTF-8">
         
-            <section id = "nameBlock">
-              <h1>Swechchha</h1>
-            </section> 
+            <title>Contact</title>
 
-            <section id = "navButtons">
-                <section id= "left">
-                    <a href= https://swechchhaparajuli.github.io/contact.html>Contact</a>
-                  </section>
-    
-                  <section id= "middle">
-                    <a href= https://swechchhaparajuli.github.io/portfolio.html >Portfolio  &nbsp; &#124;</a>
-                  </section>
-    
-                  <section id= "right">
-                    <a href= https://swechchhaparajuli.github.io/index.html >About  &nbsp; &#124;</a> 
-                  </section>
-  
-            </section>
+            <!-- We need to bring in the bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    </head>
+
+
+
+
+    <body>
+
+    <div class="view"  style="background-image: url(images/background.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+
+        <nav class="navbar navbar-light bg-light" style = "margin-bottom: -10px">
        
-        </section>
+        <a class="navbar-brand" href="#"><div class="p-3 mb-2 bg-info text-white" >  Swechchha Parajuli  </div></a>
+       
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" style = "color: gray" href=" https://swechchhaparajuli.github.io/index.html">Home  |</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style = "color: gray" href="https://swechchhaparajuli.github.io/portfolio.html">Portfolio  |</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" style = "color: gray" href="https://swechchhaparajuli.github.io/contact.html">Contact |</a>
+            </li>
+        </ul>
+      
+        </nav>
 
+        <br>
+        <br>
 
-  
-      </nav>
-    <!--</div>-->
+        <span class="border border-secondary" style = "margin-bottom: 10px">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-1">
+                        <!-- left margin empty space-->
+                        </div>
+                    </div>
 
-    <div class = "container">
-      <div class = "portfolioHolder">
+                <div class="col-md-7">
+                    <div class="media">
+                        <div class="media-body"> 
+                        
+                            <h5 class="mt-0">Portfolio</h5>
+                            <hr>
+                            <br>
+                            
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                            <p><img class = "mr-3" src = images/portfolio1.jpg alt = "swechchha" style: height = "150px" style: width = "150px"></a></p>
+                                            <figure class="label-1"><a href= https://github.com/swechchhaparajuli/LIRI_Bot > LIRI Bot</a></figure>
 
-        <h2 id = "title">Portfolio</h2>     
+                                    </div>
+                                    
+                                    <div class="col-sm-6">
+                                        <p> <img class = "mr-3" src = images/portfolio2.jpg alt = "swechchha" style: height = "150px" style: width = "150px"></p>
+                                        <figure class="label-2"><a href= https://github.com/swechchhaparajuli/constructorWordGuess > Word Guess</a></figure>
 
-        <hr>
-   
-        <div class = "imageGrid">
-          <section id = "portfolio-img-1">
-            <img src = https://swechchhaparajuli.github.io/images/portfolio1.jpg alt = "portfolio-img-1" style: height = "100px" style: width = "140px">
-          </section>
+                                    </div>
+                                </div>
 
-          <figure class="label-1"><a href= https://github.com/swechchhaparajuli/LIRI_Bot > LIRI Bot</a></figure>
+                                
 
-          <section id = "portfolio-img-2">
-            <img src = https://swechchhaparajuli.github.io/images/portfolio2.jpg alt = "portfolio-img-2" style: height = "100px" style: width = "140px">
-          </section>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <p><img class = "mr-3" src = images/portfolio3.jpg alt = "swechchha" style: height = "150px" style: width = "150px"></p>
+                                        <figure class="label-3"><a href= https://github.com/swechchhaparajuli/bamazon> BAMAZON </a></figure>
 
-          <figure class="label-2"><a href= https://github.com/swechchhaparajuli/constructorWordGuess > Word Guess</a></figure>
+                                    </div>
+                               
+                                    <div class="col-sm-6">
+                                        <p><img class = "mr-3" src = images/portfolio4.jpg alt = "swechchha" style: height = "150px" style: width = "150px"></p>
+                                    </div>
+                                </div>
 
-          <section id = "portfolio-img-3">
-            <img src = https://swechchhaparajuli.github.io/images/portfolio3.jpg alt = "portfolio-img-3" style: height = "100px" style: width = "140px">
-          </section>
+                                
 
-          <figure class="label-3"><a href= https://github.com/swechchhaparajuli/bamazon> BAMAZON </a></figure>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <p><img class = "mr-3" src = images/portfolio5.jpeg alt = "swechchha" style: height = "150px" style: width = "150px"></p>
+                                    </div>
+                                </div>
 
-    
-          <section id = "portfolio-img-4">
-            <img src = https://swechchhaparajuli.github.io/images/portfolio4.jpg alt = "portfolio-img-4" style: height = "100px" style: width = "140px">
-          </section>
+                                    <br>
+                                    <br>
+                                    <br> 
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                 
+                            </div>   
+                        </div>
+                    </div>
+                </div>
 
-          <figure class="label-4"><a href= https://swechchhaparajuli.github.io/test.html> Item 4</a></figure>
+            </div>
+        </span>
 
-          <section id = "portfolio-img-5">
-            <img src = https://swechchhaparajuli.github.io/images/portfolio5.jpeg alt = "portfolio-img-5" style: height = "100px" style: width = "140px">
-          </section>
-
-          <figure class="label-5"><a href= https://swechchhaparajuli.github.io/test.html> Item 5</a></figure>
-
-        </div>
-
+     
+      <div class="fixed-bottom" > 
+          
+          <div class="p-1 mb-0 bg-secondary text-white" >
+            
+            <p class="text-center"> Copyright &copy; </p> 
+          </div>
       </div>
 
     </div>
-
-  </body>
-
-  <div id = "tFoot">
-    <footer>
-    
-      <h4 style = "text-align: center">Copyright &copy;</h4>
-
-    </footer>
-  </div>
+</body>
 
 </html>
