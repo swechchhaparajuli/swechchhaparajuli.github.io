@@ -3,7 +3,7 @@
 
   <head>
     <meta charset="UTF-8">
-    <title>CSS Stylesheets with Relative Paths</title>
+    <title>Portfolio</title>
 
 
   <!-- We need to bring in the bootstrap CSS -->
@@ -20,98 +20,71 @@
 
   <title>Swechchha Parajuli</title>
 
-  <!--<article>
-    <header>
-        <table id="tHead" style="width:100%">
-          <tr> 
-              <th style = "text-align: center">Copyright &copy;</th>
-          </tr> 
-        </table>
-    </header>
-  </article>-->
-
-  
   <body>
-    <!--<div class="container">-->
-      <nav>
 
-        <section id="top-tabs">
-        
-            <section id = "nameBlock">
-              <h1>Swechchha</h1>
-            </section> 
-
-          <section id = "navButtons">
-
-            <section id= "left">
-              <a href= https://swechchhaparajuli.github.io/contact.html>Contact</a>
-            </section>
-
-            <section id= "middle">
-              <a href= https://swechchhaparajuli.github.io/portfolio.html >Portfolio  &nbsp; &#124;</a>
-            </section>
-
-            <section id= "right">
-              <a href= https://swechchhaparajuli.github.io/index.html >About  &nbsp; &#124;</a> 
-            </section>
-
-          </section>
-       
-        </section>
-  
-      </nav>
-    <!--</div>-->
-
-    <div class = "container">
-      <div class = "contactBlock">
-
-        <h2 id = "title">Contact Me</h2>
-        <br>
-        <hr>
-  
-        <form action="/action_page.php">
-
-          <h3>Name</h3><br>
-
-          
-          <input type="text" name="firstname" value = "John Smith">
-          <br>
-          
-
-          <h3><br>Email</h3>
-
-         <br>
-          <input type="text" name="email" value = "example@gmail.com">
-          <br>
-        
-
-          <h3><br>Message</h3><br>
-
-          
-         
-          <div class = "message">
-          <input type="text" name="message">
-          </div>
-
-         <br>
-          <input type="submit" value="Submit" id="submit">
-          <br>
-
-
-
-        </form> 
+    <nav class="navbar navbar-expand-lg" style = "background-color: #1f1f1f" >
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+        <li class = "nav-item active">
+          <button class="btn btn-dark home" id = "home-page"> Home </button>
+        </li>
+        <li class = "nav-item">
+          <button class="btn btn-dark links" id = "0">Bootcamp Portfolio</button>
+        </li>
+        <li class = "nav-item">
+          <button class="btn btn-dark links" id = "1">Art Portfolio</button>
+        </li>
+        <li class = "nav-item">
+          <button class="btn btn-dark links" id = "2">Contact Info</button>
+        </li>
+      </ul>
       </div>
+    </nav>
 
+    <style>
+      .kid{
+        background-image: url("./images/navbackground.jpg");
+        width: 100%;
+        height: 100%;
+      }
+      .home{
+        background-image: url("/Volumes/G-DRIVE mobile USB-C/nepalKidsProject/kidsDemoSite/kidInfo/navbackground.jpg");
+      }
+    </style>
+
+<br>
+<br> 
+  <div class="container-fluid" id = "profile">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class = "container">
+                  Contact Swechchha
+                 <!-- <h1 class="display-4">Tulsi</h1> -->
+                </div>
+                <br>
+                <div class = "container">
+                  
+                  
+                  <br>
+                  <br>
+                  <p id = "profileInfo"> </p>
+                </div>
+              </div>
+              <div class="col">
+                <div class = "container">
+                  <iframe id = "videoDisplay" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+        </div>
     </div>
+  </div>
 
   </body>
-
-  <div id = "tFoot">
-    <footer>
-    
-      <h4 style = "text-align: center">Copyright &copy;</h4>
-
-    </footer>
-  </div>
 
 </html>
