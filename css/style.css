@@ -1,4 +1,25 @@
 
-.links{
-  align-items: right;
+
+body{
+  background-color: oldlace;
+  background-image: url("../images/background.jpg");
+}
+
+
+.btn{
+  background-color: pink;
+  border: 2px darkgray;
+  height: 90px;
+  font-size: 20px;
+}
+
+#home{
+  width: 25%;
+  text-align-last: left;
+}
+
+#navigation{
+  margin-top: 5%;
+  background-color: pink;
+  opacity: 0.8;
 }
