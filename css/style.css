@@ -5,18 +5,31 @@ body{
   background-image: url("../images/background.jpg");
 }
 
-
 .btn{
-  background-color: transparent;
   border: 2px darkgray;
   height: 90px;
   font-size: 20px;
+  background: transparent;
+  color: white;
+  font-size: 15px;
+}
+
+.btn:hover{
+  background: radial-gradient( rgb(73, 72, 72) 20%, transparent 60% );
+  color: white;
+}
+
+.btn:active{
+  background: radial-gradient( rgb(73, 72, 72) 20%, transparent 60% );
+  color: white;
+  font-size: 25px;
 }
 
 #home{
   width: 25%;
   text-align-last: left;
 }
+
 
 #navigation{
   margin-top: 5%;
