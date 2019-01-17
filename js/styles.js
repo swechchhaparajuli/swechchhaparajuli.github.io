@@ -7,7 +7,7 @@ $(document).on("click", ".home", function(){
 });
 
 $(document).on("click", ".artPortfolio", function(){
-    window.location.href =  "./portfolio.html";
+    window.location.href =  "./artPortfolio.html";
 
 });
 
@@ -17,6 +17,6 @@ $(document).on("click", ".contact", function(){
 });
 
 $(document).on("click", ".webdevPortfolio", function(){
-    window.location.href =  "./portfolio.html";
+    window.location.href =  "./webdevPortfolio.html";
 
 });
