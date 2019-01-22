@@ -8,7 +8,12 @@ profileDescription.textContent = " Hi! I'm Swechchha Parajuli. I am currently an
 $(document).on("click", ".home", function(){
     console.log("home clicked");
     window.location.href =  "./index.html";
-});  
+}); 
+
+$(document).on("click", "#mongoScraper", function(){
+    console.log("scrape clicked");
+    window.location.href =  "https://spmongoscraping.herokuapp.com/";
+});   
 
 $(document).on("click", ".artPortfolio", function(){
     window.location.href =  "./artPortfolio.html";
