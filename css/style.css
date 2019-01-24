@@ -21,7 +21,7 @@ body{
   background: linear-gradient( rgb(48, 47, 47) 60%, transparent 100% );
 }
 
-.btn{
+.navb {
   border: 2px darkgray;
   height: 90px;
   font-size: 20px;
@@ -52,13 +52,13 @@ h1{
 
 
 
-.btn:hover{
+.navb:hover{
   background: radial-gradient( rgb(73, 72, 72) 20%, transparent 60% );
   color: white;
   font-size: 25px;
 }
 
-.btn:active{
+.navb :active{
   background: radial-gradient( rgb(73, 72, 72) 20%, transparent 60% );
   color: white;
   font-size: 25px;
@@ -68,6 +68,7 @@ h1{
   width: 25%;
   text-align-last: left;
 }
+
 
 
 #navigation{
