@@ -12,7 +12,7 @@ $(document).on("click", ".home", function(){
 
 $(document).on("click", "#mongoScraper", function(){
     console.log("scrape clicked");
-    window.location.href =  "https://spmongoscraping.herokuapp.com/";
+    window.location.href =  "http://swechchha.com/clickyGame/";
 });   
 
 $(document).on("click", ".artPortfolio", function(){
