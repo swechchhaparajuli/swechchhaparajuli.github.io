@@ -6,12 +6,6 @@ body{
   color: white;
 }
 
-#mongoScraper{
-  background-image: url(../images/Screen\ Shot\ 2019-01-22\ at\ 9.14.01\ AM.png);
-  height: 30px;
-  width: 150px;
-  font-size: 15px;
-}
 
 .container{
   margin-left: 5%;
@@ -68,8 +62,6 @@ h1{
   width: 25%;
   text-align-last: left;
 }
-
-
 
 #navigation{
   margin-top: 5%;
