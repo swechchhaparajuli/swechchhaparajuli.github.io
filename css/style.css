@@ -1,5 +1,4 @@
 
-
 body{
   background-color: oldlace;
   background-image: url("../images/background.jpg");
@@ -48,6 +47,11 @@ h1{
   color: white;
 }
 
+#navigation{
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
 #content{
   background-color: grey;
   opacity: 0.7;
@@ -71,14 +75,5 @@ h1{
   text-align-last: left;
 }
 
-.horizontal-scroll-wrapper {
-  width: 2000px;
-  height: 100%;
-  overflow-y: auto;
-  overflow-x: hidden;
-}
 
-#navigation{
-  margin-top: 5%;
-  margin-left: 5%;
-}
+
