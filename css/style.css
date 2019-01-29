@@ -20,8 +20,18 @@ body{
   margin: 2px;
 }
 
+
+
 .jumbotron{
   background: linear-gradient( rgb(48, 47, 47) 60%, transparent 100% );
+}
+
+.card-img-top{
+  height: 200px;
+}
+
+.card-body{
+  height: 400px;
 }
 
 .navb {
