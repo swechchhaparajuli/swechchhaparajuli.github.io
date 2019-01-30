@@ -19,13 +19,9 @@ $(document).on("click", ".contact", function(){
     window.location.href =  "./contact.html";
 });
 
-
-
 $(document).on("click", ".artPortfolio", function(){
     window.location.href =  "./artPortfolio.html";
 });
-
-
 
 $(document).on("click", ".webdevPortfolio", function(){
     window.location.href =  "./webdevPortfolio.html";
