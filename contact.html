@@ -8,8 +8,6 @@
 
   <!-- We need to bring in the bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
-
   <!-- This line is money! It points your HTML to the CSS file. -->
   <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
   <link rel="stylesheet" type="text/css" href="css/reset.css">
@@ -23,52 +21,20 @@
 
   <body>
 
-
-    <div class = "container" id = "navigation">
-      <button type="button" class="btn btn-link  navb home"> Home </button>
-      <button type="button" class="btn btn-link  navb artPortfolio"> Art Portfolio </button>
-      <button type="button" class="btn btn-link  navb webdevPortfolio"> Web Development Portfolio </button>
-      <button type="button" class="btn btn-link  navb contact"> Contact Info </button>
+    <div class = "sidenav" id = "navigation">
+      <a href="index.html" class="btn btn-link navb home"> Home </button>
+      <a href="artPortfolio.html" class="btn btn-link navb artPortfolio"> Art Portfolio </button>
+      <a href="webdevPortfolio.html" class="btn btn-link navb webdevPortfolio"> Web Development Portfolio </button>
+      <a href="contact.html" class="btn btn-link navb contact"> Contact Info </button>
     </div>
 
-    <div class = "container">
-      <div class = "jumbotron" id = "content">
-        <h1>Email </h1>
-        <br>
-        <br>
-        <form>
-          <div class="form-group">
-            <label for="exampleFormControlInput1">Email address</label>
-            <br>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          </div>
-          <div class="form-group">
-              <label for="exampleFormControlTextarea1">Subject</label>
-              <br>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
-            </div>
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Email Content</label>
-            <br>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-        </form>
+    <div>
 
-      </div>
-      </div>
-
-
-      <div class = "container">
-         <img src = "./images/instagram.png" style="height:150px">
-         
-         <img src = "./images/twitter.png" style="height:150px">
-         
-         <img src = "./images/youtube.png" style="height:150px">
-      </div>
-
+    </div>
+    </body>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <script src="./js/styles.js"></script>
-    </body>
+    
   
 
 
