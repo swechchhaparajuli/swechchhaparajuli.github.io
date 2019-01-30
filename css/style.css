@@ -19,14 +19,16 @@ body{
   position: relative;;
   z-index: 0;
   height: 750px;
-
 }
+
+
 
 #page2{
   height: 700px;
   background-color: teal;
-  width: 1150px;
+  width: 1250px;
   font-size: 20px;
+  overflow: scroll;
   opacity: 0.8;
   transform: rotate(0deg) translate(1%, 0%);
   position: relative;
@@ -107,6 +109,18 @@ hr{
   position: relative;
   float: left;
   opacity: 0.7;
+  overflow: scroll;
+}
+
+.centerPage{
+  transform: translate(20%, 90%);
+  font-size: 100px;
+
+}
+
+p{
+  font-family: 'Scheherazade', serif;
+  font-size: 20px;
 }
 
 #cardlinks{
