@@ -1,68 +1,80 @@
 
 body{
-  background-color: black;
-  background-image: url("../images/background1.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-color: rgb(240, 213, 190);
   font-family: 'Scheherazade', serif;
-  color: white;
-  z-index: -1;
+  color: rgb(167, 160, 160);
+  z-index: 0;
+  overflow-x: hidden;
 }
 
-
+.container-fluid{
+  padding-left: -200px;
+  align-content: flex-start;
+}
 
 #page1{
-  background-image: url("../images/background.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
+  background-color:rgb(240, 213, 190);
   width: 1300px;
   position: relative;;
   z-index: 0;
-  height: 750px;
+  height: 600px;
 }
 
-#page2{
-  height: 700px;
-  background-color: teal;
+.col-4{
+  padding-left: 0px;
+}
+
+.artport {
+  height: 100%;
+  width: 103.5%;
+  font-size: 50px;
+  text-align: center;
+  background-size: cover;
+  border: rgba(59, 57, 57, 0);
+  background-image: url(/Users/Swechacha/Desktop/swechchhaparajuli.github.io/images/artport.jpeg);
+  background-repeat: no-repeat;
+}
+
+.webdevport{
+  height: 100%;
+  width: 104%;
+  font-size: 50px;
+  background-image: url(/Users/Swechacha/Desktop/swechchhaparajuli.github.io/images/code.jpg);
+  border: rgba(59, 57, 57, 0);
+  text-align: center;
+  background-size: cover;
+}
+
+
+.mainprojport{
+  height: 100%;
+  width: 103.5%;
+  font-size: 50px;
+  border: rgba(59, 57, 57, 0);
+  background-image: url(/Users/Swechacha/Desktop/swechchhaparajuli.github.io/images/currentproj.png);
+  text-align: center;
+  background-size: cover;
+}
+
+#page2 {
+  height: 600px;
+  background-color:  rgb(14, 14, 34);
   width: 1300px;
   font-size: 20px;
   overflow: scroll;
   opacity: 0.8;
-  margin-right: 15%;
   position: relative;
 }
 
-form{
-  font-size: 20px;
-}
-
-.sendemail{
-align-content: center;
-  font-size: 30px;
-  width: 100px;
-  height: 50px;
-}
-
-#page3{
+#page3 {
   width: 1300px;
-  height: 750px;
+  height: 650px;
   transform: rotate(0deg) translate(20%, 10%);
-}
-
-.form{
-  width: 800px;
 }
 
 .btn-outline-secondary{
   border-width: 3px;
 }
-
-/*#home{
-  background-image: url("../images/background.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 200%;
-}*/
 
 .horizontal-scroll-wrapper{
   z-index: 0;
@@ -72,32 +84,10 @@ align-content: center;
   transform: rotate(0deg) translate(10%, 0%);
 }
 
-/* The side navigation menu */
-.sidenav {
-  height: 80%;
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0%;
-  background-color: #111; /* Black*/
-  opacity: 0.8;
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 90px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-}
-
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 15px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
 
 #main {
-  transition: margin-left .5s;
-  padding: 20px;
+  /*transition: margin-left .5s;
+  padding: 20px;*/
 }
 
 .container > h1{
@@ -115,6 +105,10 @@ hr{
   border-width: 10px;
 }
 
+.mtn{
+  color: rgba(59, 57, 57, 0.495);
+  opacity: 0.5;
+}
 
 .card{
   margin: 1rem;
@@ -173,7 +167,8 @@ p{
 
 h1{
   font-size: 20px;
-  color: white;
+  color: rgba(59, 57, 57, 0.495);
+  text-shadow: rgba(59, 57, 57, 0.952);
 }
 
 
@@ -204,7 +199,10 @@ h1{
   width: 25%;
   text-align-last: left;
 }
-
+.btn:hover {
+  opacity: 0.8;
+  height: 101%;
+}
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
