@@ -31,7 +31,7 @@ body{
   text-align: center;
   background-size: cover;
   border: rgba(59, 57, 57, 0);
-  background-image: url(/Users/Swechacha/Desktop/swechchhaparajuli.github.io/images/artport.jpeg);
+  background-image: url(../images/artport.jpeg);
   background-repeat: no-repeat;
 }
 
@@ -39,7 +39,7 @@ body{
   height: 100%;
   width: 104%;
   font-size: 50px;
-  background-image: url(/Users/Swechacha/Desktop/swechchhaparajuli.github.io/images/code.jpg);
+  background-image: url(../images/code.jpg);
   border: rgba(59, 57, 57, 0);
   text-align: center;
   background-size: cover;
@@ -51,7 +51,7 @@ body{
   width: 103.5%;
   font-size: 50px;
   border: rgba(59, 57, 57, 0);
-  background-image: url(/Users/Swechacha/Desktop/swechchhaparajuli.github.io/images/currentproj.png);
+  background-image: url(../images/currentproj.png);
   text-align: center;
   background-size: cover;
 }
@@ -170,6 +170,8 @@ h1{
   color: rgba(59, 57, 57, 0.495);
   text-shadow: rgba(59, 57, 57, 0.952);
 }
+
+
 
 
 #navigation{
