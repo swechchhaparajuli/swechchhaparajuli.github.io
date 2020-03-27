@@ -181,9 +181,9 @@ h1{
   .mainprojport{font-size: 30px;}
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 550px) {
   #page1 {height: 600px;}
-  #page1 {height: 700px;}
+  #page2 {height: 1800px;}
   #page3 {height: 600px;}
   #mepic {width: 220px; height: auto;}
   .artport{font-size: 50px; }
