@@ -172,30 +172,22 @@ h1{
 }
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 960px) {
   #page1 {height: 500px;}
   #page2 {height: 500px;}
   #page3 {height: 500px;}
+  .mtn {opacity: 0.0;}
   .artport{font-size: 30px;}
   .webdevport{font-size: 30px;}
   .mainprojport{font-size: 30px;}
 }
 
-@media screen and (max-width: 550px) {
-  #page1 {height: 600px;}
-  #page2 {height: 1800px;}
-  #page3 {height: 600px;}
+@media screen and (max-width: 500px) {
+  #page2 {height: 300%;}
   #mepic {width: 220px; height: auto;}
   .artport{font-size: 50px; }
   .webdevport{font-size: 50px;}
   .mainprojport{font-size: 50px;}
-}
-
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
 }
 
 
