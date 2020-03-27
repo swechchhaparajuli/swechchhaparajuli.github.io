@@ -30,7 +30,7 @@ body{
 
 .artport {
   height: 100%;
-  width: 105.5%;
+  width: 120%;
   font-size: 50px;
   text-align: center;
   background-size: cover;
@@ -41,7 +41,7 @@ body{
 
 .webdevport{
   height: 100%;
-  width: 105%;
+  width: 120%;
   font-size: 50px;
   background-image: url(../images/code.jpg);
   border: rgba(59, 57, 57, 0);
@@ -51,12 +51,13 @@ body{
 
 .mainprojport{
   height: 100%;
-  width: 105.5%;
+  width: 120%;
   font-size: 50px;
   border: rgba(59, 57, 57, 0);
   background-image: url(../images/currentproj.png);
   text-align: center;
   background-size: cover;
+
 }
 
 .btn-outline-secondary{
@@ -162,10 +163,7 @@ h1{
   font-size: 15px;
 }
 
-#home{
-  width: 25%;
-  text-align-last: left;
-}
+
 .btn:hover {
   opacity: 0.8;
   height: 101%;
@@ -173,9 +171,6 @@ h1{
 
 
 @media screen and (max-width: 960px) {
-  #page1 {height: 500px;}
-  #page2 {height: 500px;}
-  #page3 {height: 500px;}
   .mtn {opacity: 0.0;}
   .artport{font-size: 30px;}
   .webdevport{font-size: 30px;}
@@ -183,7 +178,7 @@ h1{
 }
 
 @media screen and (max-width: 500px) {
-  #page2 {height: 300%;}
+  #page2 {height: ;}
   #mepic {width: 220px; height: auto;}
   .artport{font-size: 50px; }
   .webdevport{font-size: 50px;}
