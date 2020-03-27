@@ -2,6 +2,9 @@
 <html lang="en-us">
 
   <head>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Swechchha's Portfolio</title>
 
@@ -35,6 +38,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
   <script>
+
+
   $('.smooth').on('click', function() {
       $.smoothScroll({
           scrollElement: $('body'),
@@ -50,20 +55,23 @@
 
   <title> Swechchha </title>
 
-  <body id = "home">
+  <body>
 
-
+    <div class = "container-fluid bodycont"></div>
     <div id="page1" class = "row">
-        <a id="about" class="smooth"></a>
-        <div class = "container profile-container">
+      <div class = "col-3"></div>
+      <div class = "col-3"></div>
+        <div class = "col-3 profile-container">
             <!--<img id= "profile-image" src = "images/me.jpeg" style="height: 190px">-->
             <h1> Swechchha </h1>
             <h1> Parajuli
             <img src= "images/mountain-306236__340.png" style = "width: 90px" class = "mtn"> 
           </h1>
-
           </div>
+          <div class = "col-3"></div>
       </div>
+    
+
   <div class = "container-fluid portfolios">
     <div id="page2" class = "row">
           <br>
@@ -81,9 +89,15 @@
     </div>
   </div>
 
-  <div class = "container portfolios">
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <div class = "container-fluid aboutme">
       <div id="page3" class = "row">
-        <div class = "row">
+        <div class = "col-2">
+        </div>
             <div class = "col-4"> <h1 style = "font-size:30px;"> Swechchha Parajuli</h1>
             <br>
             <br>
@@ -100,10 +114,9 @@
            <!-- <div class = "col-sm">
                 <a href = "https://twitter.com/sshshady"><img src = "images/twitter.png" alt="Twitter" height="100" width="100"></a>
                 <a href = "https://twitter.com/sshshady"><img src = "images/twitter.png" alt="Twitter" height="100" width="100"></a>
-
               </div>-->
-        </div>
       </div>
+</div>
 </div>
 
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
