@@ -18,6 +18,7 @@ h2{
   color: rgba(26, 24, 24, 0.479);
 }
 
+
 #page1{
   background-color:rgb(240, 213, 190);
   position: relative;
@@ -196,6 +197,10 @@ h1{
   height: 101%;
 }
 
+a:hover {
+  font-size: 25px;
+  text-decoration: none;
+}
 
 @media screen and (max-width: 960px) {
   .mtn {opacity: 0.0;}
