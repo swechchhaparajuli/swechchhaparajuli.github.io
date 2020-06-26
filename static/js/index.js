@@ -169,8 +169,8 @@ let init = (app) => {
                 title: "unTrending",
                 authors: "Swechchha Parajuli",
                 content: "unTrending is an application that gives its user access to news from a variety of outlets. ",
-                deployed: "http://swechchha.com/unTrending/",
-                src_code: "https://github.com/swechchhaparajuli/unTrending" ,
+                deployed: "https://untrending.herokuapp.com/",
+                src_code: "https://github.com/swechchhaparajuli/untrending" ,
                 date_created: "",
                 type: "bootcamp",
                 portfolio:"project"
