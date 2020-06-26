@@ -77,85 +77,127 @@ let init = (app) => {
         posts = [
             // This is a post.
             {
-                id: 1,
+                id: 0,
                 title: "NYT Book Search",
                 authors: "Swechchha Parajuli",
                 content: "A MERN app, that allows the user to search a book using author or name and save its information",
                 deployed: "",
                 src_code: "https://github.com/swechchhaparajuli/BookSearch",
                 date_created: "",
-                type: "bootcamp"
+                type: "bootcamp",
+                portfolio:"webdev"
             },
             {
-                id: 2,
+                id: 1,
                 title: "Clicky Game",
                 authors: "Swechchha Parajuli",
                 content: "A Harry Potter themed game. Basically, just don't click on the same character twice!",
                 deployed: "http://swechchha.com/clickyGame/",
                 src_code: "https://github.com/swechchhaparajuli/clickyGame/",
                 date_created: "",
-                type: "bootcamp"
+                type: "bootcamp",
+                portfolio:"webdev"
             }, 
             {
-                id: 3,
+                id: 2,
                 title: "Word Guess Game",
                 authors: "Swechchha Parajuli",
                 content: "Hangman game but like lion king themed, check it out!",
                 deployed: "http://swechchha.com/Word-Guess-Game",
                 src_code: "https://github.com/swechchhaparajuli/Word-Guess-Game/",
                 date_created: "",
-                type: "bootcamp"
+                type: "bootcamp",
+                portfolio:"webdev"
             }, 
             {
-                id: 4,
+                id: 3,
                 title: "Sponsor A Child",
                 authors: "Swechchha Parajuli",
-                content: "A Harry Potter themed game. Basically, just don't click on the same character twice!",
+                content: "",
                 deployed: "http://swechchha.com/SponsorAChild/",
                 src_code: "https://github.com/swechchhaparajuli/SponsorAChild/",
                 date_created: "",
-                type: "freelance work"
+                type: "freelance work",
+                portfolio:"project"
             },
             {
-                id: 5,
+                id: 4,
                 title: "Trivia Game",
                 authors: "Swechchha Parajuli",
                 content: "Find out how much you know about different environmental issues by playing this game!",
                 deployed: "http://swechchha.com/TriviaGame",
                 src_code: "https://github.com/swechchhaparajuli/TriviaGame/",
                 date_created: "",
-                type: "bootcamp"
+                type: "bootcamp",
+                portfolio:"webdev"
             },
             {
-                id: 6,
+                id: 5,
                 title: "GifTastic",
                 authors: "Swechchha Parajuli",
                 content: "A Project on messing around with the giphy API, dynamic html etc (Harry Potter Themed)",
                 deployed: "http://swechchha.com/GifTastic/",
                 src_code: "https://github.com/swechchhaparajuli/GifTastic/",
                 date_created: "",
-                type: "bootcamp"
+                type: "bootcamp",
+                portfolio:"webdev"
             },
             {
-                id: 7,
+                id: 6,
                 title: "bAmazon",
                 authors: "Swechchha Parajuli",
                 content: "Amazon, but not. A project on using sql database to make a buying/selling/storing items app",
                 deployed: "",
                 src_code: "https://github.com/swechchhaparajuli/bAmazon/",
                 date_created: "",
-                type: "bootcamp"
+                type: "bootcamp",
+                portfolio:"webdev"
             },
             {
-                id: 8,
+                id: 7,
                 title: "Constructor Word Guess",
                 authors: "Swechchha Parajuli",
                 content: "A Project on messing around with constructors on js",
                 deployed: "",
                 src_code: "https://github.com/swechchhaparajuli/constructorWordGuess" ,
                 date_created: "",
-                type: "bootcamp"
+                type: "bootcamp",
+                portfolio:"webdev"
             },
+            {
+                id: 8,
+                title: "unTrending",
+                authors: "Swechchha Parajuli",
+                content: "unTrending is an application that gives its user access to news from a variety of outlets. ",
+                deployed: "http://swechchha.com/unTrending/",
+                src_code: "https://github.com/swechchhaparajuli/unTrending" ,
+                date_created: "",
+                type: "bootcamp",
+                portfolio:"project"
+            },
+            {
+                id: 9,
+                title: "Night Crawler",
+                authors: "Swechchha Parajuli",
+                content: "mobile web-based app came out of the need to enable users to always have viable route options that ensure safety",
+                deployed: "",
+                src_code: "https://github.com/swechchhaparajuli/bcbc-project1" ,
+                date_created: "",
+                type: "bootcamp",
+                portfolio:"project"
+            },
+            {
+                id: 10,
+                title: "uCare",
+                authors: "Swechchha Parajuli",
+                content: "A Project on messing around with constructors on js",
+                deployed: "https://ucare2019.herokuapp.com/",
+                src_code: "https://github.com/swechchhaparajuli/uCare" ,
+                date_created: "",
+                type: "bootcamp",
+                portfolio:"project"
+            },
+
             
 
         ];

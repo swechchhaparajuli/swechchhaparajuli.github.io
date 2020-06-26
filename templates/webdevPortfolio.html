@@ -36,7 +36,7 @@
     <div class="horizontal-scroll-wrapper rectangles" id = "main">
       <div class="row">
         <div v-for="post in posts" class="">
-          <div class="card column is-3" style="width: 18rem;">
+          <div v-if="post.portfolio == 'webdev'"  class="card column is-3" style="width: 18rem;">
             <div class="card-body">
               <h2 class="card-title" style = "color: black">{{post.title}}</h2>
               <p class="card-text" style = "color: black">{{post.content}}</p>

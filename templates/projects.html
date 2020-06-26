@@ -32,9 +32,29 @@
 <br>
 <br>
 <br>
-      <div class = "jumbotron">
-      <h1> Web Dev Projects </h1>
 
+      <div id="vue-target">
+        <div class="horizontal-scroll-wrapper rectangles" id = "main">
+          <div class="row">
+            <div v-for="post in posts" class="">
+              <div v-if="post.portfolio == 'project'"  class="card column is-3" style="width: 18rem;">
+                <div class="card-body">
+                  <h2 class="card-title" style = "color: black">{{post.title}}</h2>
+                  <p class="card-text" style = "color: black">{{post.content}}</p>
+                  <br>
+                  <br>
+                  <div v-if="post.deployed != ''">
+                    <button v-on:click="go_deployed(post.id)" class="btn btn-info" id = "cardlinks">Go to Deployed Site</button>
+                  </div>
+                  <button v-on:click="go_src(post.id)" class="btn btn-info" id = "cardlinks">Check Out the Code</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        </div>
+<!--
         <div class="card row" style="width: 18rem;">
             <img class="card-img-top" src="" alt=" image ">
             <div class="card-body">
@@ -64,13 +84,15 @@
             </div>
         </div>
       </div>
+      -->
 
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <script src="../static/js/index.js"></script>
+      
     </body>
      
       <script src="../static/js/sugar.min.js"></script>
       <script src="../static/js/axios.min.js"></script>
       <script src="../static/js/vue.js"></script>
       <script src="../static/js/utils.js"></script> 
+      <script src="../static/js/index.js"></script>
 </html>
