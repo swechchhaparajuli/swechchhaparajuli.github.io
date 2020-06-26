@@ -1,5 +1,3 @@
-
-
 var profileDescription = document.getElementById("profile-description");
 var profileImage = document.getElementById("profile-image");
 
@@ -15,19 +13,171 @@ $(document).on("click", "#resbtn", function(){
     $("#page4").css("padding-top", "50px");
 }); 
 
+// vue
+
+let app = {};
+
+// Given an empty app object, initializes it filling its attributes,
+// creates a Vue instance, and then initializes the Vue instance.
+let init = (app) => {
+
+    // This is the Vue data.
+    app.data = {
+        posts: [], // See initialization.
+    };
+
+    app.index = (a) => {
+        // Adds to the posts all the fields on which the UI relies.
+       /* let i = 0;
+        for (let p of a) {
+            p._idx = i++;
+            // TODO: Only make the user's own posts editable. //done in the edit function itself
+            p.editable = true;
+            p.edit = false;
+            p.delete_check = false;
+            p.is_pending = false;
+            p.error = false;
+            p.original_content = p.content; // Content before an edit.
+            p.original_title = p.title;
+            p.server_content = p.content; // Content on the server
+            p.server_color = p.color;
+            p.server_title = p.title;
+        }
+        return a;*/
+    };
+
+    app.go_deployed = (post_idx) => {
+        window.open(app.vue.posts[post_idx].deployed);
+    }
+
+    app.go_src = (post_idx) => {
+        window.open(app.vue.posts[post_idx].src_code);
+    }
 
 
+    // We form the dictionary of all methods, so we can assign them
+    // to the Vue app in a single blow.
+    app.methods = {
+        go_deployed: app.go_deployed,
+        go_src: app.go_src
+    };
 
 
-/*
-$(document).on("click", ".contact", function(){
-    window.location.href =  "./contact.html";
-});
+    // This creates the Vue instance.
+    app.vue = new Vue({
+        el: "#vue-target",
+        data: app.data,
+        methods: app.methods,
+    });
 
-$(document).on("click", ".artPortfolio", function(){
-    window.location.href =  "./artPortfolio.html";
-});
+    // And this initializes it.
+    app.init = () => {
+        // You should load the posts from the server.
+        // This is purely debugging code.
+        posts = [
+            // This is a post.
+            {
+                id: 1,
+                title: "NYT Book Search",
+                authors: "Swechchha Parajuli",
+                content: "A MERN app, that allows the user to search a book using author or name and save its information",
+                deployed: "",
+                src_code: "https://github.com/swechchhaparajuli/BookSearch",
+                date_created: "",
+                type: "bootcamp"
+            },
+            {
+                id: 2,
+                title: "Clicky Game",
+                authors: "Swechchha Parajuli",
+                content: "A Harry Potter themed game. Basically, just don't click on the same character twice!",
+                deployed: "http://swechchha.com/clickyGame/",
+                src_code: "https://github.com/swechchhaparajuli/clickyGame/",
+                date_created: "",
+                type: "bootcamp"
+            }, 
+            {
+                id: 3,
+                title: "Word Guess Game",
+                authors: "Swechchha Parajuli",
+                content: "Hangman game but like lion king themed, check it out!",
+                deployed: "http://swechchha.com/Word-Guess-Game",
+                src_code: "https://github.com/swechchhaparajuli/Word-Guess-Game/",
+                date_created: "",
+                type: "bootcamp"
+            }, 
+            {
+                id: 4,
+                title: "Sponsor A Child",
+                authors: "Swechchha Parajuli",
+                content: "A Harry Potter themed game. Basically, just don't click on the same character twice!",
+                deployed: "http://swechchha.com/SponsorAChild/",
+                src_code: "https://github.com/swechchhaparajuli/SponsorAChild/",
+                date_created: "",
+                type: "freelance work"
+            },
+            {
+                id: 5,
+                title: "Trivia Game",
+                authors: "Swechchha Parajuli",
+                content: "Find out how much you know about different environmental issues by playing this game!",
+                deployed: "http://swechchha.com/TriviaGame",
+                src_code: "https://github.com/swechchhaparajuli/TriviaGame/",
+                date_created: "",
+                type: "bootcamp"
+            },
+            {
+                id: 6,
+                title: "GifTastic",
+                authors: "Swechchha Parajuli",
+                content: "A Project on messing around with the giphy API, dynamic html etc (Harry Potter Themed)",
+                deployed: "http://swechchha.com/GifTastic/",
+                src_code: "https://github.com/swechchhaparajuli/GifTastic/",
+                date_created: "",
+                type: "bootcamp"
+            },
+            {
+                id: 7,
+                title: "bAmazon",
+                authors: "Swechchha Parajuli",
+                content: "Amazon, but not. A project on using sql database to make a buying/selling/storing items app",
+                deployed: "",
+                src_code: "https://github.com/swechchhaparajuli/bAmazon/",
+                date_created: "",
+                type: "bootcamp"
+            },
+            {
+                id: 8,
+                title: "Constructor Word Guess",
+                authors: "Swechchha Parajuli",
+                content: "A Project on messing around with constructors on js",
+                deployed: "",
+                src_code: "https://github.com/swechchhaparajuli/constructorWordGuess" ,
+                date_created: "",
+                type: "bootcamp"
+            },
+            
 
-$(document).on("click", ".webdevPortfolio", function(){
-    window.location.href =  "./webdevPortfolio.html";
-});*/
+        ];
+        // TODO: Load the posts from the server instead.
+        // We set the posts.
+
+       /* axios.get(posts_url).then((result) => {
+            console.log("recieved:", result.data);
+            result_posts = result.data.posts;
+            indexed_posts = app.index(result_posts);
+            app.vue.posts = indexed_posts;
+
+        }).catch((error) => {
+            console.log(error);
+        });*/
+        app.vue.posts = posts;
+    };
+
+    // Call to the initializer.
+    app.init();
+};
+
+// This takes the (empty) app object, and initializes it,
+// putting all the code i
+init(app);
