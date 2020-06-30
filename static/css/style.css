@@ -32,7 +32,6 @@ h2{
   background-color: white;
   font-size: 20px;
   overflow: hidden;
-  opacity: 0.8;
   position: relative;
 }
 
@@ -57,7 +56,7 @@ h2{
   text-align: center;
   background-size: cover;
   border: rgba(59, 57, 57, 0);
-  background-image: url(../images/artport.jpeg);
+  background-image: url(../images/artport.png);
   background-repeat: no-repeat;
 }
 
@@ -66,20 +65,30 @@ h2{
   width: 120%;
   font-size: 50px;
   background-image: url(../images/code.jpg);
+  background-color: grey;
   border: rgba(59, 57, 57, 0);
   text-align: center;
   background-size: cover;
 }
 
-.mainprojport{
-  height: 120%;
+.projtwo{
+  height: 50%;
   width: 120%;
   font-size: 50px;
   border: rgba(59, 57, 57, 0);
   background-image: url(../images/currentproj.png);
   text-align: center;
   background-size: cover;
+}
 
+.projone{
+  height: 50%;
+  width: 120%;
+  font-size: 50px;
+  border: rgba(59, 57, 57, 0);
+  background-image: url(../images/ucareimg.png);
+  text-align: center;
+  background-size: cover;
 }
 
 .btn-outline-secondary{
@@ -133,9 +142,6 @@ p{
   margin: 2px;
 }
 
-.jumbotron{
-  background: linear-gradient( rgb(48, 47, 47) 60%, transparent 100% );
-}
 
 .card-img-top{
   height: 200px;
@@ -168,9 +174,8 @@ h1{
 }
 
 #content{
-  background-color: grey;
+  /*background-color: grey;*/
   opacity: 0.7;
-  color: black;
 }
 
 .navb:hover{
@@ -186,6 +191,7 @@ h1{
 
 .btn:hover {
   opacity: 1.0;
+  color: gray;
 }
 
 a:hover {
@@ -196,7 +202,8 @@ a:hover {
   .mtn {opacity: 0.0;}
   .artport{font-size: 30px;}
   .webdevport{font-size: 30px;}
-  .mainprojport{font-size: 30px;}
+  .projone{font-size: 30px;}
+  .projtwo{font-size: 30px;}
 }
 
 @media screen and (max-width: 500px) {
@@ -204,7 +211,8 @@ a:hover {
   #mepic {width: 220px; height: auto;}
   .artport{font-size: 50px; }
   .webdevport{font-size: 50px;}
-  .mainprojport{font-size: 50px;}
+  .projone{font-size: 50px;}
+  .projtwo{font-size: 50px;}
 }
 
 footer{
